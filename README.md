@@ -4,7 +4,7 @@
 
 ## Sharing React Hooks with Typescript
 
-This project is a hooks + typescript study that tries to create extremely-typed hook functions and provide great re-usability. In adittion, it's a spotify-based application, with a music player made with React and [react-use-audio-player](https://github.com/E-Kuerschner/useAudioPlayer).
+This project is a hooks + typescript study that tries to create extremely-typed hook functions and provide great re-usability. In addition, it's a spotify-based application, with a music player made with React and [react-use-audio-player](https://github.com/E-Kuerschner/useAudioPlayer).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/53975579/139928890-de3330b9-1a87-4e31-9731-b62871038ca0.png" />
