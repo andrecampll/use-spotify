@@ -1,71 +1,71 @@
-<img src="https://storage.googleapis.com/golden-wind/experts-club/capa-github.svg" />
+<p align="center">
+  <img width="400px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/2/26/Spotify_logo_with_text.svg" />
+</p>
 
-## Compartilhando React Hooks com o Typescript
+## Sharing React Hooks with Typescript
 
-Olá experts, nessa aula vamos aprender como criar e compartilhar hooks com TypeScript,
-criando hooks de forma modular para que possam ser usados em vários
-partes de uma aplicação e também combiná-las para criar outros
-hooks personalizados, vamos aprender como usar o TypeScript para prover uma
-boa experiência de desenvolvimento aumentando assim a qualidade do nosso código.
+This project is a hooks + typescript study that tries to create extremely-typed hook functions and provide great re-usability. In adittion, it's a spotify-based application, with a music player made with React and [react-use-audio-player](https://github.com/E-Kuerschner/useAudioPlayer).
 
-## Primeiros passos 🏁
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/53975579/139928890-de3330b9-1a87-4e31-9731-b62871038ca0.png" />
+</p>
 
-Clone o repositório.
+## How to run 🏁
 
-```sh
-gh repo clone git@github.com:rocketseat-experts-club/React-Hooks-com-Typescript-2021-06-30.git
-react-hooks-typescript
-```
-
-`cd` no diretório.
+Clone this repository.
 
 ```sh
-cd react-hooks-typescript
+gh repo clone git@github.com:andrecampll/use-spotify.git
 ```
 
-Instale as dependências do projeto:
+`cd` in the directory.
+
+```sh
+cd use-spotify
+```
+
+Install the project dependencies:
 
 ```sh
 yarn install
 ```
 
-Inicie o servidor de desenvolvimento:
+Initialize the dev server:
 
 ```sh
 yarn start
 ```
 
-Inicie o servidor da API
+Initialize the fake API server
 
 ```sh
 yarn start:server
 ```
 
-Finalmente, vá para [localhost: 3000](http://localhost:3000) no navegador de sua escolha e você está pronto para ir 🚀.
+Finally, go to [localhost: 3000](http://localhost:3000) in your browser and you're ready to go 🚀.
 
-💡 **Dica profissional** use o branch `main` como guia de referência final, este branch contém o projeto final para que você possa acompanhar, para inciar o projeto utilize o branch **start**
+## Tools 🧰
 
-## Ferramentas 🧰
-
-- [x] React como uma linguagem de IU
+- [x] React
 - [x] Typescript
-- [x] json-server como local API
-## Estrutura do Projeto 🏗
+- [x] Json-Server
 
-Na pasta src, temos:
+## Project structure 🏗
 
-- `hooks`: pasta onde vamos criar e compartilhar nossos hooks
-- `pages` :  pasta com as rotas das nossa aplicação
-- `components` :  pasta contendo os componentes compartilhados
-- `service`: configuração basica do nossos serviços
-- `server` :  json contendo o nosso db local
+Inside `src`:
 
-## Expert
+- `hooks`: directory with all application hooks
+- `pages` :  directory with application pages
+- `components` :  directory with application react components
+- `service`: basic configs to services, i.e: API
+- `server` :  json with the local DB
 
-| [<img src="https://avatars.githubusercontent.com/u/7741167?s=460&u=41e738d1178fcf31656665fe34c1c490d9c271cb&v=4" width="75px;"/>](https://github.com/vitormalencar) |
+## Creators
+
+| [<img src="https://avatars.githubusercontent.com/u/53975579?v=4" width="75px;"/>](https://github.com/andrecampll) |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                          [Vitor Alencar](https://github.com/vitormalencar)                                                          |
+|                                                          [André Victor](https://github.com/andrecampll)                                                          |
 
-## Licença
+## License
 
-Projetado com ♥ por [vitormalencar](https://vitormalencar.com). Licenciado sob a [Licença MIT](licença).
+Made with ♥ by [andrecampll](https://github.com/andrecampll) with [vitormalencar's](https://vitormalencar.com) React Hooks class at Rocketseat's ExpertsClub. Licensed with [MIT License](license).
